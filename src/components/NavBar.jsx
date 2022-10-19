@@ -1,20 +1,23 @@
 import {Link} from "react-router-dom"
-export default function SideBar() {
+import logo from '../assets/logo/logo-coffee.svg'
+
+export default function NavBar() {
+  
   return (
-    <div className="sideBar">
+    <div >
       <div className="sibeBarLeft">
-        <span className="logo">Logo</span>
-        <h1 className="name">Cafeteria Maulini</h1>
+        <img src={logo} alt='logo de la pagina' />
+        <h1 >Cafeteria Maulini</h1>
       </div>
-      <div className="sibeBarRight">
+      <div >
         <ul>
-          <li className="option">
+          <li >
             <Link to="/">Home</Link>
           </li>
-          <li className="option">
+          <li >
             <Link to="/products">Products</Link>
           </li>
-          <li className="option">
+          <li >
             <Link to="/Cart">Cart</Link>
           </li>
         </ul>

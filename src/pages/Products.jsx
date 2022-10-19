@@ -1,9 +1,9 @@
-import SideBar from "../components/SideBar";
+import NavBar from "../components/NavBar";
 
 export default function Products() {
   return (
     <>
-      <SideBar />
+      <NavBar />
       <h1>Products</h1>
     </>
   );

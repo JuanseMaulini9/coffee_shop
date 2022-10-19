@@ -1,8 +1,8 @@
-import SideBar from "../components/SideBar";
+import NavBar from "../components/NavBar";
 export default function Cart(){
   return (
     <>
-      <SideBar />
+      <NavBar />
       <h1>Cart</h1>
     </>
   );
